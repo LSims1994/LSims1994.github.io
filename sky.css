@@ -1,0 +1,53 @@
+body {
+    background-color:lightblue;
+    
+}
+
+main {
+    font-family: cursive;
+    color: darkslateblue;
+}
+
+footer {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:indigo;
+}
+
+hr {
+    border-color:azure;
+    color:azure;
+    border-style: groove;
+}
+
+img {
+    border-radius: 20rem;
+    border: 20px double aliceblue;
+}
+
+.colored-content-block {
+    background-color: aliceblue;
+    border-radius: 5rem;
+    border: 10px double cornflowerblue;
+}
+
+a:link {
+    color:darkslategrey;
+}
+
+a:visited {
+    color:cadetblue;
+}
+
+a:hover {
+    color:royalblue;
+}
+
+a:active {
+    color: darkblue;
+}
+
+.ribbon {
+    background-color:azure;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-bottom: 5px groove royalblue;
+}

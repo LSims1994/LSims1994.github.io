@@ -1,0 +1,87 @@
+<!-- index.html is the typical starting page for websites. 
+ When you deploy this using GitHub pages, this will be the landing page of your site. -->
+
+<!doctype html>
+<html lang="en">
+  <!-- The head of the document defines all the 'behind the scenes' stuff 
+   which our web browser needs to know in order to show us the page. -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Name</title>
+    <meta
+      name="description"
+      content="This is the home page of my Portfolio Webpage!"
+    />
+    <link rel="stylesheet" href="style/themes/sky.css" />
+    <link rel="stylesheet" href="style/global.css" />
+    <script src="scripts/get-year.js"></script>
+  </head>
+
+  <!-- Body contains the actual content of the page. -->
+  <body>
+    <!-- The header is our navigation ribbon. -->
+    <header>
+      <nav class="ribbon">
+        <a href="pages/vacation.html">my vacation</a>
+        <a href="files/FirstnameLastname.pdf" target="_blank">resume</a>
+        <a href="mailto:youremail@ex.com">email</a>
+        <a href="https://github.com" target="_blank">github</a>
+      </nav>
+    </header>
+    <!-- Main contains the unique content of the page. -->
+    <main>
+      <h1>La'Ryan Sims</h1>
+      <img
+        src="files/duck.jpg"
+        alt="A photo of me."
+        style="width: 10rem"
+        class="centered-content"
+      />
+      <section class="colored-content-block">
+        <h2>About me</h2>
+        <details>
+          <summary>
+            I am a student at the University of Pittsburgh-Johnstown, and currently searching
+            for my
+          </summary>
+          <p>
+            I'm being shown how to create a simple webpage at the Computer
+            Science club's webpage workshop!
+          </p>
+        </details>
+        <section>
+          <h3>My Hobbies</h3>
+          <ul>
+            <li>Building Computers</li>
+            <li>Video Games</li>
+            <li>Football</li>
+          </ul>
+        </section>
+        <section>
+          <h3>Summary</h3>
+          <p>
+            I am a student at the University of Pittsburgh at Johnstown studying Information Systems with a concentration in Cybersecurity.
+            I am a U.S. Navy veteran and currently work as a 911 dispatcher, where I apply technical problem-solving skills in a 
+            high-pressure environment. I am interested in networking, cybersecurity, and systems administration, and I enjoy building 
+            hands-on projects to strengthen my technical skills.
+          </p>
+        </section>
+        <section>
+          <h3><a href="pages/vacation.html">My Vacation</a></h3>
+          <p>And now here's an ordered list.</p>
+          <ol>
+            <li>Here's the first item</li>
+            <li>Here's a second item</li>
+          </ol>
+        </section>
+      </section>
+    </main>
+    <!-- The footer contains a simple copyright logo with our name and the year. -->
+    <footer>
+      <hr />
+      <!-- The year is set automatically by our get-year.js script! -->
+      <p>&copy; Your Name <span id="year"></span></p>
+    </footer>
+  </body>
+</html>
